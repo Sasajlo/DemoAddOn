@@ -1,0 +1,45 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.demo.grappling_hook",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "rightItem",
+					"pivot": [-0.25, 5.4, 2.55]
+				},
+				{
+					"name": "grappling_hook",
+					"parent": "rightItem",
+					"pivot": [0, 1.43315, 0.47075]
+				},
+				{
+					"name": "base",
+					"parent": "grappling_hook",
+					"pivot": [0, 1.43315, 0.47075],
+					"cubes": [
+						{"origin": [-1.175, 2.28315, -5.96925], "size": [2.35, 2.35, 3.025], "inflate": -0.5, "pivot": [0, 1.43315, 0.47075], "rotation": [90, 0, 0], "uv": [14, 11]},
+						{"origin": [-1.35, 1.43315, -3.57925], "size": [2.7, 3.375, 8.1], "pivot": [0, 1.43315, 0.47075], "rotation": [90, 0, 0], "uv": [0, 0]},
+						{"origin": [-1.28, 2.51565, 0.54075], "size": [2.56, 2.56, 5.26], "inflate": -0.2, "pivot": [0, 1.43315, 0.47075], "rotation": [35, 0, 0], "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "hook",
+					"parent": "grappling_hook",
+					"pivot": [0, -5.50685, -1.57925],
+					"cubes": [
+						{"origin": [0, -6.80685, -3.07925], "size": [0, 3, 3], "pivot": [0, -5.30685, -1.57925], "rotation": [90, 0, 0], "uv": [0, 15]},
+						{"origin": [0, -6.80685, -3.07925], "size": [0, 3, 3], "pivot": [0, -5.30685, -1.57925], "rotation": [90, -90, 0], "uv": [0, 15]}
+					]
+				}
+			]
+		}
+	]
+}

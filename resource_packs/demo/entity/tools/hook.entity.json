@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "demo:hook",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/demo/entity/tools/grappling_hook"
+      },
+      "geometry": {
+        "default": "geometry.demo.grappling_hook.hook"
+      },
+      "animations": {
+        "rotate_hook": "animation.demo.grappling_hook.rotate_hook"
+      },
+      "scripts": {
+        "animate": [ "rotate_hook" ]
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

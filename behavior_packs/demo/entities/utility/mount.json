@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "demo:mount",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:type_family": { "family": [ "mount", "utility", "demo" ] },
+      "minecraft:collision_box": { "height": 0, "width": 0 },
+      "minecraft:knockback_resistance": { "value": 1, "max": 1 },
+      "minecraft:damage_sensor": { "triggers": [{ "cause": "all", "deals_damage": "no" }] },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [ "player" ]
+      }
+    },
+    "events": {}
+  }
+}

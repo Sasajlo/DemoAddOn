@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.100",
+  "sound_definitions": {
+    "demo.welcome": {
+      "category": "music",
+      "sounds": [
+        { "name": "sounds/demo/welcome", "volume": 1 }
+      ]
+    },
+    "demo.grappling_hook.shoot": {
+      "category": "player",
+      "sounds": [
+        { "name": "sounds/demo/grappling_hook_shoot", "volume": 0.5 }
+      ]
+    },
+    "demo.ui.open_info": {
+      "category": "music",
+      "sounds": [
+        { "name": "sounds/demo/open_info", "volume": 1 }
+      ]
+    },
+    "demo.ui.okay": {
+      "category": "music",
+      "sounds": [
+        { "name": "sounds/demo/okay", "volume": 1 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "4b7845fc-118c-492d-9535-71315264a368",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 20, 30 ]
+  },
+  "modules": [
+    {
+      "description": "Demo Add-On Resource Pack",
+      "type": "resources",
+      "uuid": "665ee153-c4ca-48c4-8364-768619b29bfe",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "14e467b4-e3aa-49d3-8352-f8439fd7b2ee",
+      "version": [ 1, 0, 0 ]
+    }
+  ]
+}

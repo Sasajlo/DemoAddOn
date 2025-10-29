@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "demo:fern_bush",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/demo/entity/plants/fern_leaf"
+      },
+      "geometry": {
+        "default": "geometry.demo.fern_bush"
+      },
+      "animations": {
+        "wind": "animation.demo.fern_bush.wind"
+      },
+      "scripts": {
+        "scale": "2",
+        "animate": [ "wind" ]
+      },
+      "render_controllers": [ "controller.render.demo.plants.fern_bush" ]
+    }
+  }
+}

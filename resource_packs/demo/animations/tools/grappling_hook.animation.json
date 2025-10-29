@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.demo.grappling_hook.hold": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"grappling_hook": {
+					"rotation": [-12.15948, 59.8012, -48.38656],
+					"position": [-1.74983, -2.41193, 7.49137]
+				}
+			}
+		},
+		"animation.demo.grappling_hook.rotate_hook": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"hook": {
+					"rotation": ["q.property('demo:pitch')", "q.property('demo:yaw') - 90", 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "demo:info",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/demo/items/info"
+      },
+      "geometry": {
+        "default": "geometry.demo.info"
+      },
+      "animations": {
+        "hold.fp": "animation.demo.info.hold.fp",
+        "hold.tp": "animation.demo.info.hold.tp"
+      },
+      "scripts": {
+        "animate": [
+          { "hold.fp": "c.is_first_person" },
+          { "hold.tp": "!c.is_first_person" }
+        ]
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

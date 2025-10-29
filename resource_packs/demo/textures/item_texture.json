@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "demo",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "demo_info": { "textures": "textures/demo/items/info" },
+    "demo_grappling_hook": { "textures": "textures/demo/items/tools/grappling_hook" }
+  }
+}

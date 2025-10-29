@@ -1,0 +1,5 @@
+﻿pack.name=Demo Add-On Resource Pack
+pack.description=Demo Add-On Resource Pack
+
+## Mount
+action.hint.exit.demo:mount=Press SNEAK or JUMP to dissconnect hook.

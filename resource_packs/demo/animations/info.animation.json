@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.demo.info.hold.fp": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"info": {
+					"rotation": [151.19066, 12.14276, 30.24101],
+					"position": [-1.60362, -0.42565, 2.69207]
+				}
+			}
+		},
+		"animation.demo.info.hold.tp": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"info": {
+					"rotation": [85.36626, -17.53791, 14.91431],
+					"position": [1, -1, -3]
+				}
+			}
+		}
+	}
+}

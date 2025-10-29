@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "demo:grappling_hook",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/demo/entity/tools/grappling_hook"
+      },
+      "geometry": {
+        "default": "geometry.demo.grappling_hook"
+      },
+      "animations": {
+        "hold": "animation.demo.grappling_hook.hold"
+      },
+      "scripts": {
+        "animate": [ 
+          { "hold": "c.is_first_person" }
+        ]
+      },
+      "render_controllers": [ "controller.render.demo.grappling_hook" ]
+    }
+  }
+}
